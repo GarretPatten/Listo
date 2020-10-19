@@ -1,0 +1,26 @@
+.banner-container {
+	display: flex;
+	align-items: center;
+	background-color: #4DA8DA;
+	margin-bottom: 30px;
+	height: 10vh;
+}
+
+.app-title {
+	color: #EEFBFB;
+	text-align: center;
+	width: 100%;
+	font-size: 28px;
+	letter-spacing: 5px;
+}
+
+.back-icon {
+	width: 12%;
+	max-width: 60px;
+	fill: #EEFBFB;
+}
+
+.hamburger-icon {
+	width: 12%;
+	max-width: 60px;
+}

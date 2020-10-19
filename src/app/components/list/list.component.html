@@ -1,0 +1,31 @@
+<section id="listPartial">
+
+	<div class="input-container">
+		<input type="text"
+			[(ngModel)]="inputValue"
+			(keyup.enter)="addItem()"/>
+		<button type="submit"
+			class="add-button"
+			(click)="addItem()">
+			Add
+		</button>
+	</div>
+
+	<div class="items-container">
+		<div class="item"
+			*ngFor="let item of items">
+			<p class="item-title">{{item.title}}</p>
+			<input type="checkbox" [(ngModel)]="item.isChecked" />
+			<hr *ngIf="item.id != (items.length - 1)" />
+		</div>
+	</div>
+
+	<div class="delete-button-container">
+		<button type="button"
+			class="delete-button"
+			(click)="deleteCheckedItems()">
+		Delete Checked Items
+		</button>
+	</div>
+
+</section>

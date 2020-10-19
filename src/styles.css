@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	background-color: #12232E;
+}
+
+/*
+Colors Scheme:
+#12232E (Dark Navy)
+#203647 (Gray Navy)
+#005270 (Light Navy)
+#007CC7 (Royal Blue)
+#4DA8DA (Light Blue)
+#EEFBFB (Off-White)
+*/
